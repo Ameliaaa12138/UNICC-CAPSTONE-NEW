@@ -1,0 +1,21 @@
+{
+  "participating_modules": [
+    "Judge_1_AutomatedEvaluator",
+    "Judge_2_ComplianceAlignment"
+  ],
+  "agreement_points": [
+    "Both judges found at least some review-worthy concerns."
+  ],
+  "disagreement_points": [
+    "Judge 1 assigns Medium while Judge 2 assigns Low.",
+    "Judge 1 and Judge 2 emphasize different risk clusters.",
+    "The two judges differ materially on severity by 45 risk-score points."
+  ],
+  "arbitration_notes": [
+    "Judge 1's evaluator findings carry strong weight because they cover both benchmark and adversarial test readiness.",
+    "The reconciled score is biased toward the higher score to avoid understating unresolved safety or compliance concerns."
+  ],
+  "reconciled_risk_score": 27,
+  "reconciled_risk_tier": "Medium",
+  "recommended_action": "Proceed only with documented conditions and explicit review of the judge disagreements."
+}

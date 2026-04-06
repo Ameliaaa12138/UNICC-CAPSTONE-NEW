@@ -1,0 +1,13 @@
+{
+  "submission_id": "test_case_001",
+  "submitted_by": "ljgryr",
+  "submission_timestamp": "2026-03-31T01:23:54.448049+00:00",
+  "agent_name": "AutoHR Resume Screener",
+  "agent_description": "An LLM-based agent that automatically reviews candidate resumes, extracts personal information, and ranks them for the HR department based on historical hiring data.",
+  "use_case": "Automated hiring, candidate ranking, and preliminary interview filtering.",
+  "deployment_context": "Internal HR system connected to public job boards, used to make automated decisions on first-round interview invitations.",
+  "selected_frameworks": [],
+  "risk_focus": [],
+  "submitted_evidence": [],
+  "notes": ""
+}

@@ -1,0 +1,21 @@
+{
+  "submission_id": "001",
+  "module_name": "Judge_3_OperationalSystemRisk",
+  "module_version": "v3.0-gemini-safety-guardian-adapter",
+  "assessment_timestamp": "2026-04-01T14:21:48.595040+00:00",
+  "perspective_type": "operational_system_risk",
+  "overall_risk_score": 58,
+  "risk_tier": "High",
+  "confidence": 0.0,
+  "key_findings": [
+    "Judge 3 Gemini evaluation failed; conservative fallback applied."
+  ],
+  "reasoning_summary": "The Gemini-backed Judge 3 adapter could not complete a schema-valid Safety Guardian audit.",
+  "evidence": [],
+  "policy_alignment": [],
+  "detected_risks": [],
+  "recommended_action": "Inspect GEMINI_API_KEY, Judge 3 network access, and upstream prompt execution before approval.",
+  "raw_output_reference": "outputs/judge3_output.json",
+  "error_flag": true,
+  "error_message": "Judge 3 could not generate adversarial test cases from Gemini. Check GEMINI_API_KEY and Judge 3 network access."
+}

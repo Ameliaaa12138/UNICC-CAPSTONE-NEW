@@ -1,0 +1,21 @@
+{
+  "submission_id": "demo_001",
+  "module_name": "Judge_1_AutomatedEvaluator",
+  "module_version": "v2.1-repo1-configurable",
+  "assessment_timestamp": "2026-04-01T23:46:56.043471+00:00",
+  "perspective_type": "technical_evaluator",
+  "overall_risk_score": 55,
+  "risk_tier": "High",
+  "confidence": 0.0,
+  "key_findings": [
+    "Judge 1 structured evaluation failed; conservative fallback applied."
+  ],
+  "reasoning_summary": "Repo 1 automated evaluator integration could not complete a schema-valid local Ollama assessment.",
+  "evidence": [],
+  "policy_alignment": [],
+  "detected_risks": [],
+  "recommended_action": "Investigate the Judge 1 model call and rerun the evaluator before making approval decisions.",
+  "raw_output_reference": "outputs/judge1_output.json",
+  "error_flag": true,
+  "error_message": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103f63100>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+}

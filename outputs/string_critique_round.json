@@ -1,0 +1,22 @@
+{
+  "participating_modules": [
+    "Judge_1_AutomatedEvaluator",
+    "Judge_2_ComplianceAlignment",
+    "Judge_3_OperationalSystemRisk"
+  ],
+  "agreement_points": [
+    "All three judges assign a High overall risk tier."
+  ],
+  "disagreement_points": [
+    "The judges emphasize different risk clusters across technical, governance, and operational perspectives.",
+    "One or more judge modules returned fallback outputs because their primary evaluation path failed."
+  ],
+  "arbitration_notes": [
+    "The critique round uses a confidence-weighted reconciliation across all participating judges rather than a fixed Judge 1 vs Judge 2 comparison.",
+    "Because the score spread is limited, the reconciled score stays close to the confidence-weighted council average.",
+    "Fallback or low-confidence outputs were downweighted, but their concerns were still retained in the disagreement log."
+  ],
+  "reconciled_risk_score": 58,
+  "reconciled_risk_tier": "High",
+  "recommended_action": "Escalate to human review after reconciling the combined technical, governance, and operational concerns."
+}

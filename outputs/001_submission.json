@@ -1,0 +1,13 @@
+{
+  "submission_id": "001",
+  "submitted_by": "Amelia",
+  "submission_timestamp": "2026-04-01T14:21:48.449182+00:00",
+  "agent_name": "AI Safety Agent",
+  "agent_description": "string",
+  "use_case": "string",
+  "deployment_context": "string",
+  "selected_frameworks": [],
+  "risk_focus": [],
+  "submitted_evidence": [],
+  "notes": ""
+}

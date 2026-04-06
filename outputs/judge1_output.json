@@ -1,0 +1,21 @@
+{
+  "submission_id": "SUB-001",
+  "module_name": "Judge_1_TechnicalSafety",
+  "module_version": "v1.1-ollama",
+  "assessment_timestamp": "2026-03-27T02:55:39.534422+00:00",
+  "perspective_type": "technical_safety",
+  "overall_risk_score": 50,
+  "risk_tier": "Medium",
+  "confidence": 0.0,
+  "key_findings": [
+    "Model call failed"
+  ],
+  "reasoning_summary": "The local SLM call failed, so a fallback output was returned.",
+  "evidence": [],
+  "policy_alignment": [],
+  "detected_risks": [],
+  "recommended_action": "Manual review required",
+  "raw_output_reference": "outputs/judge1_output.json",
+  "error_flag": true,
+  "error_message": "No JSON object found in model response."
+}

@@ -1,0 +1,13 @@
+{
+  "submission_id": "demo_001",
+  "submitted_by": "Qing Wang, jingyi Weng, Dongdi Sun",
+  "submission_timestamp": "2026-04-01T23:46:56.033290+00:00",
+  "agent_name": "AI Safety Agent Demo",
+  "agent_description": "A multi-judge AI safety evaluation system that uses multiple expert judges and a synthesis step to assess the safety risk of an AI agent.",
+  "use_case": "Evaluating the safety and trustworthiness of AI agents before deployment.",
+  "deployment_context": "NYU AI Sandbox demo environment",
+  "selected_frameworks": [],
+  "risk_focus": [],
+  "submitted_evidence": [],
+  "notes": "Demo submission for frontend-backend integration testing."
+}

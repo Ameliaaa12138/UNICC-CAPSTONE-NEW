@@ -1,0 +1,13 @@
+{
+  "submission_id": "string",
+  "submitted_by": "string",
+  "submission_timestamp": "2026-04-01T23:44:55.779682+00:00",
+  "agent_name": "string",
+  "agent_description": "string",
+  "use_case": "string",
+  "deployment_context": "string",
+  "selected_frameworks": [],
+  "risk_focus": [],
+  "submitted_evidence": [],
+  "notes": ""
+}

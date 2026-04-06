@@ -1,0 +1,20 @@
+{
+  "submission_id": "LOCAL-API-001",
+  "submitted_by": "codex",
+  "submission_timestamp": "2026-03-27T03:37:55.044454+00:00",
+  "agent_name": "Refugee Aid Assistant",
+  "agent_description": "A multilingual assistant for support information.",
+  "use_case": "Internal knowledge support",
+  "deployment_context": "Pre-deployment review in UNICC sandbox",
+  "selected_frameworks": [
+    "NIST AI RMF",
+    "EU AI Act"
+  ],
+  "risk_focus": [
+    "privacy",
+    "bias",
+    "jailbreak"
+  ],
+  "submitted_evidence": [],
+  "notes": "api smoke test"
+}

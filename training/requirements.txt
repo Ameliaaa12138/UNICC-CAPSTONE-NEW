@@ -1,0 +1,13 @@
+# Do not add torch/torchvision/torchaudio here. This environment uses a
+# custom CUDA-enabled PyTorch install that must not be replaced by PyPI wheels.
+unsloth
+transformers
+trl
+datasets
+accelerate
+peft
+bitsandbytes
+sentencepiece
+requests
+beautifulsoup4
+pypdf
