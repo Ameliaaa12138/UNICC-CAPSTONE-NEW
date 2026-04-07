@@ -72,7 +72,7 @@ UNICC CAPSTONE/
 │   └── synthesis.py
 ├── demo.py
 ├── requirements.txt
-├── HANDOFF_README.md
+├── README.md
 ├── outputs/
 ├── logs/
 └── artifacts/
